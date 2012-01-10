@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="Author" content="Marcin Kononiuk, absolutnie@gmail.com">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+        <script src="js/core.js" type="text/javascript"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <a href="/" class="hidden-text logo"><img src="images/logo.jpg" alt="AKQA - about" />AKQA</a>
+                <ul class="menu-nav">
+                    <li><a href="">Menu 1</a></li>
+                    <li><a href="">Menu 2</a></li>
+                    <li><a href="">Menu 3</a></li>
+                </ul>
+                <h1>Lorem</h1>
+                <h2 class="sup">What We Do</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam odio libero, blandit et dictum ac, sagittis aliquet leo. Maecenas aliquam nisl non magna porta vel tristique est ultrices. Mauris dapibus ornare arcu, quis porta risus consequat id. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Our focus</h3>
+                <ul>
+                    <li>Interactive</li>
+                    <li>Mobile</li>
+                    <li>Technology</li>
+                </ul>
+                <a href="http://path.to.file.pdf">Click here to download something</a>
+                <h2>News</h2>
+                <a href="#" class="action-link" id="hide-news">Show / Hide news item</a>
+                <ul class="item-list" id="news-list">
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam odio libero, blandit et dictum ac, sagittis aliquet leo. Maecenas aliquam nisl non magna porta vel tristique est ultrices. Mauris dapibus ornare arcu, quis porta risus consequat id. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <q>I wanted to do something new and different. Sprite came to me with the idea. I thought it was cool. Without the fans, there&#39;s no players.</q>
+                    </li>
+                </ul>
+                <h2>More Information</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam odio libero, blandit et dictum ac, sagittis aliquet leo. Maecenas aliquam nisl non magna porta vel tristique est ultrices. Mauris dapibus ornare arcu, quis porta risus consequat id. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
+                <form id="contact-form" method="post" action="#">
+                <p>Items marked &#42; are required fields</p>
+                    <fieldset>
+                        <label for="contact-name">Contact name &#42;:</label>
+                        <input type="text" name="contact-name" id="contact-name" />
+                        <label for="contact-email">Contact email address &#42;:</label>
+                        <input type="text" name="contact-email" id="contact-email" />
+                        <label for="contact-phone">Contact phone number :</label>
+                        <input type="text" name="contact-phone" id="contact-phone" />
+                        <input type="submit" name="contact-submit" id="contact-submit" value="Submit" />
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script language="JavaScript">
+        	var validator = new Validator('contact-form');
+        	validator.validate();
+        </script>
+    </body>
+</html>

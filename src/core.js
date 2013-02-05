@@ -46,7 +46,7 @@ function Validator(formId) {
                         nameError = "This Field is required. Letters Only";
                         break;
                         case 'contact-email':
-                        nameReg = /^(\w+[\-\.])*\w+@(\w+\.)+[A-Za-z]+$/;
+                        nameReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
                         nameError = "This Field is required. Not Valid Email";
                         break;
                         case 'contact-phone':
